@@ -1,0 +1,69 @@
+/*リセットCSSの設定*/
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+header {
+  width:100%;
+  padding:30px 20px;
+  display:flex;
+  justify-content:flex-end;
+  background-color:#ff00ff
+}
+
+.header-box {
+  background-color:#ffccff;
+  height:70px;
+  flex-basis:140px;
+  margin: 0 10px;
+}
+
+.header-box:first-child{
+  margin-right:auto;
+}
+
+main {
+  display:flex;
+  justify-content:center;
+}
+
+.main-left {
+  background-color:#ccffcc;
+  width:300px;
+}
+
+.main-right {
+  background-color:#228B22;
+  padding:20px;
+  max-width:700px;
+  flex-grow:1;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.main-right-box {
+  background-color:#ffff00;
+  height:130px;
+  flex-basis:200px;
+  margin:10px;
+}
+
+footer {
+  width:100%;
+  padding:20px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  background-color:#6495ED;
+}
+
+.footer-box {
+  background-color:#E0FFFF;
+  width:45%;
+  max-width:600px;
+  height:40px;
+  margin:10px;
+}
